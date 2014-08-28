@@ -24,57 +24,34 @@ h4 {
 }
 
 /* line 24, ../sass/site.sass */
-.jumbotron {
-  background-size: cover;
-  background-position: center center;
-}
-
-/* line 28, ../sass/site.sass */
-.jumbotron.poster {
-  height: 870px;
-  background-image: url("../img/poster.jpg");
-}
-
-/* line 32, ../sass/site.sass */
-.jumbotron.campus01,
-.jumbotron.campus02 {
-  height: 180px;
-  border-radius: 0;
-}
-
-/* line 37, ../sass/site.sass */
-.jumbotron.campus01 {
-  background-image: url("../img/campus_01.jpg");
-}
-
-/* line 40, ../sass/site.sass */
-.jumbotron.campus02 {
-  background-image: url("../img/campus_02.jpg");
-}
-
-/* line 43, ../sass/site.sass */
-.jumbotron h1 {
-  font-size: 40px;
-}
-
-/* line 46, ../sass/site.sass */
 a {
   color: #000e13;
 }
-/* line 48, ../sass/site.sass */
+/* line 26, ../sass/site.sass */
 a:hover {
   color: #4d4740;
   text-decoration: none;
 }
 
-/* line 52, ../sass/site.sass */
+/* line 30, ../sass/site.sass */
 .nav-pills > li > a {
   color: #ecd7b8;
   background: #000e13;
 }
 
-/* line 56, ../sass/site.sass */
+/* line 34, ../sass/site.sass */
 .nav > li > a:hover,
 .nav > li > a:focus {
   background: #4d4740;
+}
+
+/* line 38, ../sass/site.sass */
+.time {
+  white-space: nowrap;
+}
+
+/* line 41, ../sass/site.sass */
+.img {
+  width: 100%;
+  margin: 15px 0;
 }
