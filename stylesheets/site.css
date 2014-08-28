@@ -34,15 +34,14 @@ a:hover {
 }
 
 /* line 30, ../sass/site.sass */
-.nav-pills > li > a {
+a.download {
   color: #ecd7b8;
   background: #000e13;
 }
-
-/* line 34, ../sass/site.sass */
-.nav > li > a:hover,
-.nav > li > a:focus {
-  background: #4d4740;
+/* line 33, ../sass/site.sass */
+a.download:hover, a.download:focus {
+  color: #ecd7b8;
+  background: #4d4740 !important;
 }
 
 /* line 38, ../sass/site.sass */
@@ -54,4 +53,24 @@ a:hover {
 .img {
   width: 100%;
   margin: 15px 0;
+}
+
+/* line 45, ../sass/site.sass */
+a.lnk {
+  color: #990000;
+}
+/* line 47, ../sass/site.sass */
+a.lnk:hover {
+  color: #990000;
+  opacity: 0.8;
+}
+
+/* line 51, ../sass/site.sass */
+.spk td {
+  vertical-align: top;
+}
+
+/* line 54, ../sass/site.sass */
+.spk-img {
+  padding-right: 15px;
 }
