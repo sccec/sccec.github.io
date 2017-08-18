@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", "= 3.4.5"
+gem "jekyll", "= 3.5.2"
 
 gem "jekyll-default-layout", "~> 0.1"
 gem "jekyll-feed", "~> 0.9"

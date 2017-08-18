@@ -66,7 +66,9 @@ We want to avoid building the URL dynamically in JS, because it depends on your 
 ------------------------{% endcomment %}
 <!--[if gt IE 8]><!---->
 {% assign google_fonts = site.google_fonts | default:"Roboto+Slab:700|Noto+Sans:400,400i,700,700i" %}
-{% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
+{% comment %}
+  {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
+{% endcomment %}
 <script>
   WebFontConfig = {
     {% unless site.no_google_fonts %}
@@ -74,11 +76,12 @@ We want to avoid building the URL dynamically in JS, because it depends on your 
       families: '{{ google_fonts }}'.split('|')
     },
     {% endunless %}
-
+    {% comment %}
     custom: {
       families: ['icomoon'],
       urls: ['{{ icons_url | relative_url }}']
     }
+    {% endcomment %}
   };
 </script>
 <!--<![endif]-->
@@ -127,7 +130,9 @@ We want to avoid building the URL dynamically in JS, because it depends on your 
     </style>
   {% endunless %}
 
-  {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
+  {% comment %}
+    {% capture icons_url %}{% link assets/icomoon/style.css %}{% endcapture %}
+  {% endcomment %}
   <link rel="stylesheet" href="{{ icons_url | relative_url }}">
 </noscript>
 <!--<![endif]-->

@@ -1,0 +1,42 @@
+// Global
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.material-icons {
+	font-size: inherit !important;
+}
+
+.a_no_icon:after {
+	display: none;
+}
+
+// Sidebar
+
+.sidebar-sticky {
+	top: 1rem;
+	bottom: auto;
+}
+
+#_title {
+	border-bottom: 0;
+}
+
+a.sidebar-nav-item {
+	font-weight: normal;
+}
+
+// Index
+
+.home_title {
+	text-align: right;
+}
+
+.home_title_img {
+	display: inline-block;
+	width: 60%;
+	min-width: 200px;
+	max-width: 400px;
+	padding-bottom: 8%;
+}
