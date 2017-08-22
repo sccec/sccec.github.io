@@ -15,8 +15,25 @@ Early birds：10月1日前报名可享受额外20% off的优惠
 
 ## 报名方式
 
-1. 点击这里报名（这是一个link，报名人填写个人信息后直接发到联系人的email）
-2. 填写报名报：请就近向联系人索取报名表（报名表会参考14年的格式）
+1. [**点击这里报名**](https://docs.google.com/forms/d/e/1FAIpQLScP7pYMXdZrk_mxKVjtcMPSxfN5P5IW36rLLOWxn6_ocHp-yw/viewform?usp=sf_link){:target="_blank"}
+2. 就近向联系人索取报名表
+
+<ul>
+	<ul>
+		<li>
+			Santa Barbara<br>
+			林中 / (805)259-8893 / <a href="mailto:jonelin2003@gmail.com">jonelin2003@gmail.com</a>
+		</li>
+		<li>
+			Thousand Oaks <br>
+			姚文棣 / (805)559-1315 / <a href="mailto:theyaos@yahoo.com">theyaos@yahoo.com</a>
+		</li>
+		<li>
+			Northridge<br>
+			陈道德 / (818)826-3995 / <a href="mailto:daodech910@gmail.com">daodech910@gmail.com</a>
+		</li>
+	</ul>	
+</ul>
 
 有需要的人可申请奖学金，用以减免营会费用
 
