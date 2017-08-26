@@ -80,19 +80,10 @@ title: Home
 		<div class="team_img" style="background-image:url('/assets/img/workshop_ly.jpg');"></div>
 	</div>
 	<div class="team_img_wrap">
-		<div class="team_img" style="background-image:url('/assets/img/team_fs.jpg');"></div>
-	</div>
-	<div class="team_img_wrap">
 		<div class="team_img" style="background-image:url('/assets/img/team_bibo.jpg');"></div>
 	</div>
 	<div class="team_img_wrap">
 		<div class="team_img" style="background-image:url('/assets/img/team_lh.jpg');"></div>
-	</div>
-	<div class="team_img_wrap">
-		<div class="team_img" style="background-image:url('/assets/img/workshop_lx.jpg');"></div>
-	</div>
-	<div class="team_img_wrap">
-		<div class="team_img" style="background-image:url('/assets/img/workshop_yy.jpg');"></div>
 	</div>
 	<div class="team_img_wrap">
 		<div class="team_img" style="background-image:url('/assets/img/team_sk.jpg');"></div>
@@ -107,6 +98,15 @@ title: Home
 	</div>
 	<div class="team_img_wrap">
 		<div class="team_img" style="background-image:url('/assets/img/team_angela.jpg');"></div>
+	</div>
+	<div class="team_img_wrap">
+		<div class="team_img" style="background-image:url('/assets/img/workshop_lx.jpg');"></div>
+	</div>
+	<div class="team_img_wrap">
+		<div class="team_img" style="background-image:url('/assets/img/workshop_yy.jpg');"></div>
+	</div>
+	<div class="team_img_wrap">
+		<div class="team_img" style="background-image:url('/assets/img/team_fs.jpg');"></div>
 	</div>
 </div>
 
