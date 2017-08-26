@@ -1,3 +1,6 @@
+@import "mixins";
+@import "variables";
+
 // Global
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,4 +42,41 @@ a.sidebar-nav-item {
 	min-width: 200px;
 	max-width: 400px;
 	padding-bottom: 8%;
+}
+
+.team_imgs_wrap {
+	width: 100%;
+	margin: 0 -1.5rem -1.5rem;
+	@include clearfix;
+}
+
+.team_img_wrap {
+	width: 25%;
+	padding: 1.5rem;
+	display: block;
+	float: left;
+}
+
+.team_img {
+	width: 100%;
+	background-size: cover;
+	border-radius: 50%;
+	@include aspect-ratio(1,1);
+}
+
+@media screen and (max-width: $break-point-1) {
+	.team_imgs_wrap {
+		margin: 0 -1rem -1rem;
+	}
+	.team_img_wrap {
+		width: 33.3333333%;
+		padding: 1rem;
+	}
+}
+
+// Image
+
+.profile_img {
+	max-width: 100%;
+	max-height: 240px;
 }
