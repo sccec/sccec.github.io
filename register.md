@@ -15,8 +15,9 @@ Early birds：10 月 1 日前报名可享受额外 20% off 的优惠
 
 ## 报名方式
 
-1. [**点击这里报名**](https://docs.google.com/forms/d/e/1FAIpQLScP7pYMXdZrk_mxKVjtcMPSxfN5P5IW36rLLOWxn6_ocHp-yw/viewform?usp=sf_link){:target="_blank"}
-2. 就近向联系人索取报名表
+[网络报名](https://docs.google.com/forms/d/e/1FAIpQLScP7pYMXdZrk_mxKVjtcMPSxfN5P5IW36rLLOWxn6_ocHp-yw/viewform?usp=sf_link){:class="btn" target="_blank"}
+
+或就近向联系人索取报名表
 
 <ul>
 	<ul>

@@ -1,0 +1,110 @@
+$white:  #fff !default;
+$black:  #000 !default;
+$font-size-base: $root-font-size;
+
+$enable-rounded:            true !default;
+$enable-shadows:            false !default;
+$enable-transitions:        true !default;
+$enable-hover-media-query:  false !default;
+$enable-grid-classes:       true !default;
+$enable-print-styles:       true !default;
+
+$font-weight-normal: normal !default;
+$border-width:       1px !default;
+$border-radius:      .25rem !default;
+
+$input-btn-border-width:    $border-width !default; // For form controls and buttons
+$input-btn-padding-y:       .5rem !default;
+$input-btn-padding-x:       .75rem !default;
+$input-btn-line-height:     1.25 !default;
+
+$btn-font-weight:                $font-weight-normal !default;
+$btn-box-shadow:                 inset 0 1px 0 rgba($white,.15), 0 1px 1px rgba($black,.075) !default;
+$btn-focus-box-shadow:           0 0 0 3px rgba($black, .25) !default;
+$btn-active-box-shadow:          inset 0 3px 5px rgba($black,.125) !default;
+$btn-link-disabled-color:        $gray !default;
+$btn-block-spacing-y:            .5rem !default;
+$btn-border-radius:              $border-radius !default;
+$btn-transition:                 all .15s ease-in-out !default;
+
+@mixin border-radius($radius: $border-radius) {
+  @if $enable-rounded {
+    border-radius: $radius;
+  }
+}
+
+@mixin box-shadow($shadow...) {
+  @if $enable-shadows {
+    box-shadow: $shadow;
+  }
+}
+
+@mixin button-size($padding-y, $padding-x, $font-size, $line-height, $border-radius) {
+  padding: $padding-y $padding-x;
+  font-size: $font-size;
+  line-height: $line-height;
+  @include border-radius($border-radius);
+}
+
+@mixin hover-focus {
+  @if $enable-hover-media-query {
+    &:focus { @content }
+    @include hover { @content }
+  } @else {
+    &:focus,
+    &:hover {
+      @content
+    }
+  }
+}
+
+@mixin transition($transition...) {
+  @if $enable-transitions {
+    @if length($transition) == 0 {
+      transition: $transition-base;
+    } @else {
+      transition: $transition;
+    }
+  }
+}
+
+.btn {
+  display: inline-block;
+  font-weight: $btn-font-weight;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  user-select: none;
+  border: $input-btn-border-width solid transparent;
+  @include button-size($input-btn-padding-y, $input-btn-padding-x, $font-size-base, $input-btn-line-height, $btn-border-radius);
+  @include transition($btn-transition);
+
+  // Share hover and focus styles
+  @include hover-focus {
+    text-decoration: none;
+  }
+  &:focus,
+  &.focus {
+    outline: 0;
+    box-shadow: $btn-focus-box-shadow;
+  }
+
+  // Disabled comes first so active can properly restyle
+  &.disabled,
+  &:disabled {
+    opacity: .65;
+    @include box-shadow(none);
+  }
+
+  &:active,
+  &.active {
+    background-image: none;
+    @include box-shadow($btn-focus-box-shadow, $btn-active-box-shadow);
+  }
+}
+
+// Future-proof disabling of clicks on `<a>` elements
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}

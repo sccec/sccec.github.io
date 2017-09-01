@@ -10,6 +10,8 @@ title: Home
 加入我们，在风景如画的小镇 Ojai 度过一个不一样的周末。<br>
 与我们一起游戏、歌唱；分享友谊、探究人生！让我的故事中有你，你的故事中有我。
 
+[现在报名](https://docs.google.com/forms/d/e/1FAIpQLScP7pYMXdZrk_mxKVjtcMPSxfN5P5IW36rLLOWxn6_ocHp-yw/viewform?usp=sf_link){:class="btn" target="_blank"}
+
 ## 联络人
 
 <ul>
