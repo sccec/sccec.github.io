@@ -21,7 +21,8 @@ title: Home
 	</li>
 	<li>
 		<strong>Thousand Oaks </strong><br>
-		姚文棣 / (805)559-1315 / <a href="mailto:theyaos@yahoo.com">theyaos@yahoo.com</a>
+		姚文棣 / (805)559-1315 / <a href="mailto:theyaos@yahoo.com">theyaos@yahoo.com</a><br>
+		路瑶 / (805)558-7106 / <a href="mailto:luyao007no1@gmail.com">luyao007no1@gmail.com</a>
 	</li>
 	<li>
 		<strong>Northridge</strong><br>
@@ -70,6 +71,9 @@ title: Home
 	<div class="team_img_wrap">
 		<div class="team_img" style="background-image:url('/assets/img/team_esther.jpg');"></div>
 	</div>
+	<div class="team_img_wrap">
+		<div class="team_img" style="background-image:url('/assets/img/team_nk.jpg');"></div>
+	</div>
 </div>
 
 #### **Thousand Oaks**
@@ -88,7 +92,10 @@ title: Home
 		<div class="team_img" style="background-image:url('/assets/img/team_lh.jpg');"></div>
 	</div>
 	<div class="team_img_wrap">
-		<div class="team_img" style="background-image:url('/assets/img/team_sk.jpg');"></div>
+		<div class="team_img" style="background-image:url('/assets/img/team_to_1.jpg');"></div>
+	</div>
+	<div class="team_img_wrap">
+		<div class="team_img" style="background-image:url('/assets/img/team_to_2.jpg');"></div>
 	</div>
 </div>
 
@@ -109,6 +116,9 @@ title: Home
 	</div>
 	<div class="team_img_wrap">
 		<div class="team_img" style="background-image:url('/assets/img/team_fs.jpg');"></div>
+	</div>
+	<div class="team_img_wrap">
+		<div class="team_img" style="background-image:url('/assets/img/team_sk.jpg');"></div>
 	</div>
 </div>
 
