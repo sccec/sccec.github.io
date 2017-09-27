@@ -128,4 +128,4 @@ title: Home
 
 ## 联合主办单位
 
-[圣巴巴拉华人播道会]() · [谷区国语浸信会]() · [千橡城基督教会]()
+[圣巴巴拉华人播道会](http://cefcsb.org/){:target="_blank"} · [谷区国语浸信会](http://www.mbcsfv.org/){:target="_blank"} · [千橡城基督教会](http://chinese.cccto.org/){:target="_blank"}
